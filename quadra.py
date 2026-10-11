@@ -4,6 +4,7 @@
 Règles (voir SPEC.md) :
 - syllabe = consonne + voyelle, valeur 4*c + v (0..15)
 - mot = 1 à 4 syllabes, jamais de consonne nue
+- composé = mots reliés par un tiret, MAMA-MAKI
 - nombre = consonnes nues, base 4, poids fort à gauche
 """
 import sys
@@ -39,9 +40,15 @@ def syllables(word):
     return out
 
 
+def parts(word):
+    """Un composé MAMA-MAKI (ou MAMA'MAKI) se découpe en mots de la grille."""
+    return word.upper().replace("'", "-").split("-")
+
+
 def is_word(word):
     try:
-        syllables(word)
+        for part in parts(word):
+            syllables(part)
         return True
     except QuadraError:
         return False
@@ -87,11 +94,6 @@ def quadra_to_num(s):
     return n
 
 
-def legacy_number_value(word):
-    """Valeur du mot si les nombres s'écrivaient en syllabes (ancien schéma).
-    Sert à montrer les collisions évitées."""
-    return quadra_to_num("".join(s[0] for s in syllables(word)))
-
 
 # ---------- lexique ----------
 
@@ -112,7 +114,8 @@ def check(path=LEXIQUE):
     problems, seen = [], {}
     for word, dom, sens in load_lexique(path):
         try:
-            syllables(word)
+            for part in parts(word):
+                syllables(part)
         except QuadraError as e:
             problems.append(str(e))
             continue
@@ -121,14 +124,6 @@ def check(path=LEXIQUE):
         seen[word] = sens
     return problems
 
-
-def legacy_collisions(path=LEXIQUE):
-    """Mots qui liraient comme un nombre si les nombres étaient en syllabes A."""
-    out = []
-    for word, _, sens in load_lexique(path):
-        if is_word(word) and all(s[1] == "A" for s in syllables(word)):
-            out.append((word, legacy_number_value(word), sens))
-    return out
 
 
 def gloss(sentence, path=LEXIQUE):
@@ -140,6 +135,9 @@ def gloss(sentence, path=LEXIQUE):
             out.append((t, f"nombre {quadra_to_num(t)}"))
         elif not is_word(t):
             out.append((t, "INVALIDE"))
+        elif "-" in t or "'" in t:
+            t = "-".join(parts(t))
+            out.append((t, lex.get(t, "composé : " + " + ".join(lex.get(x, "INCONNU") for x in parts(t)))))
         else:
             out.append((t, lex.get(t, "INCONNU")))
     return out
@@ -154,11 +152,6 @@ def main(argv):
     if cmd == "check":
         pb = check()
         print("\n".join(pb) if pb else "lexique ok")
-        col = legacy_collisions()
-        if col:
-            print("\ncollisions évitées par la règle des consonnes nues :")
-            for w, n, s in col:
-                print(f"  {w} = {n} en ancien schéma ({s})")
         return 1 if pb else 0
     if cmd == "encode":
         b4, hx, data = encode(arg)
@@ -175,9 +168,12 @@ def main(argv):
     elif cmd in ("bits", "unbits"):
         import quadra_bits
         return quadra_bits.main(argv)
+    elif cmd in ("free", "pairs", "legacy"):
+        import quadra_lex
+        return quadra_lex.main(argv)
     else:
         print(__doc__)
-        print("commandes : check | encode MOT | decode HEX | num N | parse CHIFFRES | gloss PHRASE | bits PHRASE | unbits HEX")
+        print("commandes : check | encode MOT | decode HEX | num N | parse CHIFFRES | gloss PHRASE | bits PHRASE | unbits HEX | free | pairs | legacy")
     return 0
 
 

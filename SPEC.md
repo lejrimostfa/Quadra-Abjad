@@ -1,4 +1,4 @@
-# Quadra Abjad, spécification v0.3
+# Quadra Abjad, spécification v0.4
 
 Langue construite à 4 consonnes et 4 voyelles. Ce document fixe les règles.
 Les points marqués **[proposition]** sont des choix faits pour débloquer le
@@ -74,6 +74,8 @@ mot    = 0 + (nb syllabes - 1, 2 bits) + 4 bits par syllabe
 nombre = 1 + (nb chiffres - 1, 3 bits) + 2 bits par chiffre
 ```
 
+Le tiret d'un composé est le jeton nombre MM (zéro en tête, jamais produit
+par un nombre), 8 bits.
 Le bourrage en tête dit combien de zéros ignorer à la fin. Un nombre va de
 1 à 8 chiffres, donc de 0 à 65535. Un mot va de 1 à 4 syllabes.
 
@@ -116,10 +118,24 @@ Les paires E/I donnent les contraires : MEMO grand, MIMO petit. SEKI partir,
 SIKI arriver. Chaque nom a sa personne, son verbe et son adjectif.
 Le lien E = personne, I = verbe est une convention à apprendre.
 
-Mots de trois syllabes : racine plus une syllabe de précision lue avec la même
-table. MAMAKA main (corps, angle action), SESAKA matin (jour, vers), SESALE
-soir (jour, hors de). Noms propres : trois ou quatre syllabes choisies par le
-porteur, par exemple MOSEKA.
+**Bloc O-O réservé.** Les 16 cases à deux voyelles O (MOMO, SOSO, KOKO, ...)
+sont les mots outils de deux syllabes : ou, parce que, pouvoir, devoir, passif,
+etc. Double abstraction = grammaire. Liste dans `GRAMMAIRE.md`.
+
+**Mots de trois syllabes.** Syllabes 1 et 2 = racine de la grille. Syllabe 3 =
+précision : sa consonne est un angle, sa voyelle est la classe du mot. Un mot
+en I est toujours un verbe, quelle que soit sa longueur. MAMAKA main (corps,
+angle action, nom), SESAKA matin (jour, angle action), SESALA soir (jour,
+angle lieu), SOLAKA clé (porte, angle outil). Noms propres : trois ou quatre
+syllabes choisies par le porteur, par exemple MOSEKA.
+
+**La grille est un moyen mnémotechnique, pas une dérivation.** Elle garantit
+le champ d'un mot, jamais son sens exact. Au-delà du noyau, un mot s'apprend.
+
+**Distance entre les mots.** Quatre voyelles donnent des paires à une lettre
+d'écart en série (KIKA, KIMA, KILA). Règle : deux mots fréquents de la même
+classe ne doivent pas différer d'une seule lettre si leurs sens peuvent se
+confondre dans une phrase. `python3 quadra.py pairs` liste les paires.
 
 Le lexique complet vit dans `lexique.tsv`. Les 16 tableaux 4 x 4 remplis sont
 dans `travail/chercheur.md`, section A.5.
@@ -154,8 +170,9 @@ Exemple : m̀ś ḱl̀ l̊ṁ k̇ṁ k̇ ṁṁ k̀l̊ (ancienne phrase MISE KEL
 - `SO MO MILI LI` vaut que vois-tu, jamais le vois-tu. À retenir.
 - SA vaut avec et et. `MI SAKI SA MO` se lit je vais avec toi ou je vais et
   toi. Les deux sens restent proches, à surveiller.
-- Mots à une voyelle d'écart (KIKA, KIMA, KILA) : risque de confusion à la
-  lecture, à mesurer sur un texte long.
+- Paires minimales : règle posée (section 5), à appliquer au fil du lexique.
+- Mots étrangers : pas de transcription possible avec 4 consonnes. Les noms
+  propres se choisissent.
 - SEKI vaut partir et commencer, SIKI arriver et finir. Polysémie assumée.
 - Nombres au-dessus de 65535 : pas prévus dans le flux binaire.
 - Historique : la v0.2 avait un lexique arbitraire de 25 mots. 21 ont
@@ -165,10 +182,13 @@ Exemple : m̀ś ḱl̀ l̊ṁ k̇ṁ k̇ ṁṁ k̀l̊ (ancienne phrase MISE KEL
 
 ```
 python3 quadra.py check                # vérifie le lexique
+python3 quadra.py free                 # cases libres de la grille
+python3 quadra.py pairs                # paires minimales du lexique
 python3 quadra.py encode KALE          # base 4, hex, octets
 python3 quadra.py num 10               # 10 -> KK
 python3 quadra.py parse KK             # KK -> 10
 python3 quadra.py gloss "KALE LASI LOLA KOKA KA SEMA KILA"
+python3 quadra.py gloss "MI MILI-LAKA"  # composé
 python3 quadra.py bits "KAMA KK"       # flux binaire, hex, taille
 python3 quadra.py unbits 460e68        # retour vers la phrase
 python3 tests.py

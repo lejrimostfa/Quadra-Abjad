@@ -1,4 +1,4 @@
-# Quadra Abjad, grammaire v0.3
+# Quadra Abjad, grammaire v0.4
 
 Complément de `SPEC.md`. L'alphabet, les nombres, l'encodage et la grille
 sémantique sont dans la spec. Ici : les particules, la syntaxe et les locutions.
@@ -23,6 +23,26 @@ sémantique sont dans la spec. Ici : les particules, la syntaxe et les locutions
 | LI | il, elle, ça. Après un nom : ce, cette |
 | SE | pluriel, après le nom ou le pronom |
 | LA | relatif (que, qui), après le nom |
+
+### Mots outils de deux syllabes (bloc O-O)
+
+| Mot | Rôle | Place |
+|---|---|---|
+| SOSO | ou | entre deux mots ou deux propositions |
+| SOMO | comme | avant le terme comparé |
+| SOLO | aussi, encore | après le verbe ou l'adjectif |
+| KOKO | pouvoir | avant le verbe |
+| KOSO | devoir | avant le verbe |
+| KOMO | passif | avant le verbe, agent avec LE |
+| KOLO | donc | en tête de la conséquence |
+| LOKO | parce que | en tête de la cause |
+| LOSO | que (complétive) | après le verbe de pensée ou de parole |
+| LOLO | peut-être | en tête de phrase |
+| MOMO | très | après l'adjectif |
+| MOSO | chaque | avant le nom |
+| MOLO | autre | après le nom |
+
+Trois cases restent libres : MOKO, SOKO, LOMO.
 
 ## 2. Syntaxe
 
@@ -62,19 +82,34 @@ sémantique sont dans la spec. Ici : les particules, la syntaxe et les locutions
     question, on répète le nom.
     `SO LAKA MA KI LI` où est le livre ? `SO MO SAKI SASA LI` quand pars-tu ?
     `SO LI LASI` qui parle ? `SO MO MILI LI` que vois-tu ?
-16. Impératif : verbe en tête, sans sujet. `SAKI KA LEKA` va à l'école.
+16. Modaux : KOKO pouvoir, KOSO devoir, après la négation et le temps.
+    `MI KO KE KOKO SAKI` je ne pourrai pas aller. `MO KOSO LIKI` tu dois
+    apprendre.
+17. Passif : KOMO avant le verbe, agent introduit par LE.
+    `LAKA KOMO LAKI LE KALE` le livre est écrit par le chef.
+18. Complétive : LOSO après le verbe. `MI LALI LOSO MO SEKI` je pense que tu
+    pars.
+19. Cause et conséquence : LOKO devant la cause, KOLO devant la conséquence.
+    `MI KO SAKI LOKO SESA MA SISO` je ne pars pas parce que le jour est sombre.
+    `SESA MA SISO KOLO MI KO SAKI` le jour est sombre, donc je ne pars pas.
+20. Alternative : SOSO. `MIKA SOSO MAKA` de l'eau ou de la nourriture.
+21. Intensif et manière : MOMO après l'adjectif, SOMO devant le comparé.
+    `LAMA MEMO MOMO` une très grande maison. `LI SAKI SOMO SAKE` il va comme
+    un voyageur.
+22. Impératif : verbe en tête, sans sujet. `SAKI KA LEKA` va à l'école.
     Interdiction `KO MILI LAKA`. Demande polie : question avec SO.
     `SO MO SOKI LAKA KA MI` donne-moi le livre, s'il te plaît.
 
-### Locutions
+### Composés et interjections
 
-Expressions fixes, formées avec les mots de la grille.
+Un composé relie deux mots par un tiret. Sa classe est celle du premier mot.
+Son sens s'apprend, la grille ne donne que le champ.
 
-| Locution | Sens | Lecture |
+| Composé | Sens | Lecture |
 |---|---|---|
-| MILI LAKA | lire | voir le livre |
-| SAKI LE KIMA | se lever | sortir du lit |
-| LAKA KEKA | liste de tâches | document de travail |
-| SESA | bonjour | jour, en interjection |
-| SISA | bonsoir, bonne nuit | nuit, en interjection |
+| MAMA-MAKI | convive, mangeur | personne, manger |
+| MILI-LAKA | lire | voir, livre |
+| SEKI-KIMA | se lever | partir, lit |
+| LAKA-KEKA | liste de tâches | document, travail |
 
+Interjections : SESA bonjour (jour), SISA bonsoir, bonne nuit (nuit).

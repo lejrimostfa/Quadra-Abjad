@@ -4,11 +4,13 @@
 flux   = bourrage(3 bits) + jetons + zéros de bourrage (aligné sur l'octet)
 mot    = 0 + (nb syllabes - 1 sur 2 bits) + 4 bits par syllabe
 nombre = 1 + (nb chiffres - 1 sur 3 bits) + 2 bits par chiffre
+tiret  = jeton nombre MM (zéro en tête, jamais produit par un nombre), 8 bits
 """
 import sys
-from quadra import CONS, VOW, MAX_SYL, QuadraError, syllables, num_to_quadra
+from quadra import CONS, VOW, QuadraError, syllables, parts
 
 MAX_DIGITS = 8  # 3 bits de longueur, donc 1 à 8 chiffres, 0 à 65535
+JOIN = "1" + "001" + "0000"  # tiret de composé
 
 
 def _is_number(tok):
@@ -18,6 +20,8 @@ def _is_number(tok):
 def token_bits(tok):
     """Jeton (mot ou nombre) vers chaîne de bits, sans bourrage."""
     t = tok.upper()
+    if "-" in t or "'" in t:
+        return JOIN.join(token_bits(x) for x in parts(t))
     if _is_number(t):
         if len(t) > MAX_DIGITS:
             raise QuadraError(f"{t}: {len(t)} chiffres, maximum {MAX_DIGITS}")
@@ -63,7 +67,7 @@ def unbits(stream):
             if len(payload) != 2 * n:
                 raise QuadraError("flux tronqué dans un nombre")
             out.append("".join(CONS[int(payload[j:j + 2], 2)] for j in range(0, len(payload), 2)))
-    return " ".join(out)
+    return " ".join(out).replace(" MM ", "-")
 
 
 def main(argv):

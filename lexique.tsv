@@ -15,6 +15,19 @@ KO	grammaire	négation
 KE	grammaire	marqueur de futur
 SI	grammaire	si, condition (en tête de la subordonnée)
 LA	grammaire	relatif (que, qui), après le nom
+SOSO	outil	ou
+SOMO	outil	comme (comparaison, manière)
+SOLO	outil	aussi, encore
+KOKO	outil	pouvoir (capacité), avant le verbe
+KOSO	outil	devoir (obligation), avant le verbe
+KOMO	outil	passif, avant le verbe
+KOLO	outil	donc
+LOKO	outil	parce que
+LOSO	outil	que (complétive), après le verbe
+LOLO	outil	peut-être
+MOMO	outil	très, après l'adjectif
+MOSO	outil	chaque
+MOLO	outil	autre
 MAMA	MM nom	personne, corps
 MAME	MM personne	quelqu'un, individu
 MAMO	MM adjectif	entier, tout
@@ -27,7 +40,6 @@ MIME	MM personne	enfant
 MIMO	MM adjectif	petit
 MOMA	MM nom	forme, figure
 MOMI	MM verbe	former, façonner
-MOMO	MM adjectif	beau
 MASA	MS nom	vie
 MASE	MS personne	être vivant
 MASI	MS verbe	vivre
@@ -42,7 +54,6 @@ MISO	MS adjectif	jeune, nouveau
 MOSA	MS nom	mort
 MOSE	MS personne	défunt
 MOSI	MS verbe	mourir
-MOSO	MS adjectif	mort (adj)
 MAKA	MK nom	nourriture, repas
 MAKE	MK personne	cuisinier
 MAKI	MK verbe	manger
@@ -53,7 +64,6 @@ MIKI	MK verbe	boire
 MOKA	MK nom	remède, soin
 MOKE	MK personne	médecin
 MOKI	MK verbe	soigner
-MOKO	MK adjectif	sain
 MALA	ML nom	tête, visage
 MELA	ML nom	bouche
 MILA	ML nom	oeil, regard
@@ -66,14 +76,13 @@ SAMO	SM adjectif	familial
 SEMA	SM nom	groupe, équipe, société
 SEME	SM personne	membre, collègue
 SEMI	SM verbe	se réunir
-SEMO	SM adjectif	collectif
+SEMO	SM adjectif	collectif, commun
 SIMA	SM nom	amitié, amour
 SIME	SM personne	ami
 SIMI	SM verbe	aimer
 SIMO	SM adjectif	cher (aimé)
 SOMA	SM nom	lien, relation
 SOMI	SM verbe	lier, relier
-SOMO	SM adjectif	commun
 SASA	SS nom	temps, moment, heure
 SASI	SS verbe	durer
 SESA	SS nom	jour, lumière
@@ -137,7 +146,6 @@ KILE	KL personne	chercheur
 KILI	KL verbe	étudier, chercher
 KOLA	KL nom	objectif, but
 KOLI	KL verbe	vouloir, viser
-KOLO	KL adjectif	bon
 LAMA	LM nom	maison, bâtiment
 LAME	LM personne	habitant
 LAMI	LM verbe	habiter
@@ -176,7 +184,14 @@ LOLA	LL nom	idée, concept
 LOLI	LL verbe	imaginer, concevoir
 MAMAKA	MM nom	la main
 MAMASA	MM nom	le pied
-LAMALE	LM nom	la fenêtre
+LAMALA	LM nom	la fenêtre (maison, angle lieu)
 SESAKA	SS nom	le matin
-SESALE	SS nom	le soir
+SESALA	SS nom	le soir (jour, angle lieu)
 SOLAKA	SL nom	la clé (porte, angle outil)
+MALO	ML adjectif	beau
+MAKO	MK adjectif	sain
+KALO	KL adjectif	bon
+MAMA-MAKI	composé	convive, mangeur (personne, manger)
+MILI-LAKA	composé	lire (voir, livre)
+SEKI-KIMA	composé	se lever (partir, lit)
+LAKA-KEKA	composé	liste de tâches (document, travail)

@@ -3,6 +3,7 @@
 from quadra import (syllables, encode, decode_hex, is_word, num_to_quadra,
                     quadra_to_num, check, gloss)
 from quadra_bits import bits, to_bytes, unbits, token_bits
+from quadra_lex import free_cells, minimal_pairs
 
 
 def test_mots():
@@ -38,6 +39,19 @@ def test_bits():
         assert unbits(bits(p)) == p, p
         assert unbits(to_bytes(p).hex()) == p, p
     assert unbits(bits("KAMO " + num_to_quadra(2026))) == "KAMO " + num_to_quadra(2026)
+    assert unbits(bits("MAMA-MAKI SE")) == "MAMA-MAKI SE"
+    assert unbits(bits("MI MILI-LAKA")) == "MI MILI-LAKA"
+
+
+def test_composes():
+    assert is_word("MAMA-MAKI") and is_word("MAMA'MAKI") and not is_word("MAMA-")
+    g = gloss("MAMA-MAKI MAMA'MAKI")
+    assert g[0][0] == "MAMA-MAKI" and g[1][0] == "MAMA-MAKI"
+
+
+def test_lex():
+    assert all(c[3] != "A" for c in free_cells())
+    assert all(len(a) == 4 for a, _, b, _ in minimal_pairs())
 
 
 if __name__ == "__main__":

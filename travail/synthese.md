@@ -106,3 +106,21 @@ comme si (n° 30). Les fichiers etudiant*.md sont gardés tels quels, en archive
 Interrogatifs par LI dans une question SO (KI LI où, SASA LI quand). Clé =
 SOLAKA. Lire, se lever, liste, bonjour, bonsoir en locutions (GRAMMAIRE.md).
 Zéro particule nouvelle. Reste ouvert : l'ambiguïté KI MALA sur un être vivant.
+
+## Cycle 5 : les quatre décisions de structure, v0.4
+
+2026-10-11. Décidées par Mostfa après jugement de constructibilité.
+1. Bloc O-O (16 cases à deux voyelles O) réservé aux mots outils de deux
+   syllabes. 13 placés : SOSO ou, LOKO parce que, KOLO donc, KOKO pouvoir,
+   KOSO devoir, KOMO passif, LOSO que, SOMO comme, SOLO aussi, LOLO peut-être,
+   MOMO très, MOSO chaque, MOLO autre. Cinq adjectifs ont déménagé : beau MALO,
+   sain MAKO, bon KALO. Mort (adj) = KO MASO. Commun fusionne dans SEMO.
+2. Mot de trois syllabes : racine + syllabe de précision dont la voyelle est la
+   classe. LAMALE devient LAMALA, SESALE devient SESALA.
+3. La grille est déclarée mnémotechnique, pas dérivation.
+4. Règle des paires minimales, outil `pairs`. Outil `free` pour les cases.
+Plus, à la demande de Mostfa : composés par tiret (MAMA-MAKI), classe du
+premier mot, tiret = jeton nombre MM (8 bits) dans le flux binaire. Les
+locutions deviennent des composés : MILI-LAKA lire, SEKI-KIMA se lever,
+LAKA-KEKA liste.
+Grammaire : règles 16 à 21 (modaux, passif, complétive, cause, ou, intensif).
