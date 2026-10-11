@@ -1,0 +1,2352 @@
+[
+{
+"id": 0,
+"word": "MA",
+"domain": "grammaire",
+"sense": "est, être (présent)",
+"cls": "particule",
+"field": "",
+"syllables": [
+"MA"
+]
+},
+{
+"id": 1,
+"word": "ME",
+"domain": "grammaire",
+"sense": "marqueur de passé",
+"cls": "particule",
+"field": "",
+"syllables": [
+"ME"
+]
+},
+{
+"id": 2,
+"word": "SA",
+"domain": "grammaire",
+"sense": "avec, ensemble, et",
+"cls": "particule",
+"field": "",
+"syllables": [
+"SA"
+]
+},
+{
+"id": 3,
+"word": "SO",
+"domain": "grammaire",
+"sense": "question, demande polie (en tête)",
+"cls": "particule",
+"field": "",
+"syllables": [
+"SO"
+]
+},
+{
+"id": 4,
+"word": "KA",
+"domain": "grammaire",
+"sense": "pour, vers, à",
+"cls": "particule",
+"field": "",
+"syllables": [
+"KA"
+]
+},
+{
+"id": 5,
+"word": "KI",
+"domain": "grammaire",
+"sense": "dans, intérieur",
+"cls": "particule",
+"field": "",
+"syllables": [
+"KI"
+]
+},
+{
+"id": 6,
+"word": "LO",
+"domain": "grammaire",
+"sense": "mais, cependant",
+"cls": "particule",
+"field": "",
+"syllables": [
+"LO"
+]
+},
+{
+"id": 7,
+"word": "LE",
+"domain": "grammaire",
+"sense": "hors de, dehors",
+"cls": "particule",
+"field": "",
+"syllables": [
+"LE"
+]
+},
+{
+"id": 8,
+"word": "MI",
+"domain": "grammaire",
+"sense": "je, moi",
+"cls": "particule",
+"field": "",
+"syllables": [
+"MI"
+]
+},
+{
+"id": 9,
+"word": "MO",
+"domain": "grammaire",
+"sense": "tu, toi",
+"cls": "particule",
+"field": "",
+"syllables": [
+"MO"
+]
+},
+{
+"id": 10,
+"word": "LI",
+"domain": "grammaire",
+"sense": "il, elle, ça",
+"cls": "particule",
+"field": "",
+"syllables": [
+"LI"
+]
+},
+{
+"id": 11,
+"word": "SE",
+"domain": "grammaire",
+"sense": "pluriel",
+"cls": "particule",
+"field": "",
+"syllables": [
+"SE"
+]
+},
+{
+"id": 12,
+"word": "KO",
+"domain": "grammaire",
+"sense": "négation",
+"cls": "particule",
+"field": "",
+"syllables": [
+"KO"
+]
+},
+{
+"id": 13,
+"word": "KE",
+"domain": "grammaire",
+"sense": "marqueur de futur",
+"cls": "particule",
+"field": "",
+"syllables": [
+"KE"
+]
+},
+{
+"id": 14,
+"word": "SI",
+"domain": "grammaire",
+"sense": "si, condition (en tête de la subordonnée)",
+"cls": "particule",
+"field": "",
+"syllables": [
+"SI"
+]
+},
+{
+"id": 15,
+"word": "LA",
+"domain": "grammaire",
+"sense": "relatif (que, qui), après le nom",
+"cls": "particule",
+"field": "",
+"syllables": [
+"LA"
+]
+},
+{
+"id": 16,
+"word": "SOSO",
+"domain": "outil",
+"sense": "ou",
+"cls": "outil",
+"field": "SS",
+"syllables": [
+"SO",
+"SO"
+]
+},
+{
+"id": 17,
+"word": "SOMO",
+"domain": "outil",
+"sense": "comme (comparaison, manière)",
+"cls": "outil",
+"field": "SM",
+"syllables": [
+"SO",
+"MO"
+]
+},
+{
+"id": 18,
+"word": "SOLO",
+"domain": "outil",
+"sense": "aussi, encore",
+"cls": "outil",
+"field": "SL",
+"syllables": [
+"SO",
+"LO"
+]
+},
+{
+"id": 19,
+"word": "KOKO",
+"domain": "outil",
+"sense": "pouvoir (capacité), avant le verbe",
+"cls": "outil",
+"field": "KK",
+"syllables": [
+"KO",
+"KO"
+]
+},
+{
+"id": 20,
+"word": "KOSO",
+"domain": "outil",
+"sense": "devoir (obligation), avant le verbe",
+"cls": "outil",
+"field": "KS",
+"syllables": [
+"KO",
+"SO"
+]
+},
+{
+"id": 21,
+"word": "KOMO",
+"domain": "outil",
+"sense": "passif, avant le verbe",
+"cls": "outil",
+"field": "KM",
+"syllables": [
+"KO",
+"MO"
+]
+},
+{
+"id": 22,
+"word": "KOLO",
+"domain": "outil",
+"sense": "donc",
+"cls": "outil",
+"field": "KL",
+"syllables": [
+"KO",
+"LO"
+]
+},
+{
+"id": 23,
+"word": "LOKO",
+"domain": "outil",
+"sense": "parce que",
+"cls": "outil",
+"field": "LK",
+"syllables": [
+"LO",
+"KO"
+]
+},
+{
+"id": 24,
+"word": "LOSO",
+"domain": "outil",
+"sense": "que (complétive), après le verbe",
+"cls": "outil",
+"field": "LS",
+"syllables": [
+"LO",
+"SO"
+]
+},
+{
+"id": 25,
+"word": "LOLO",
+"domain": "outil",
+"sense": "peut-être",
+"cls": "outil",
+"field": "LL",
+"syllables": [
+"LO",
+"LO"
+]
+},
+{
+"id": 26,
+"word": "MOMO",
+"domain": "outil",
+"sense": "très, après l'adjectif",
+"cls": "outil",
+"field": "MM",
+"syllables": [
+"MO",
+"MO"
+]
+},
+{
+"id": 27,
+"word": "MOSO",
+"domain": "outil",
+"sense": "chaque",
+"cls": "outil",
+"field": "MS",
+"syllables": [
+"MO",
+"SO"
+]
+},
+{
+"id": 28,
+"word": "MOLO",
+"domain": "outil",
+"sense": "autre",
+"cls": "outil",
+"field": "ML",
+"syllables": [
+"MO",
+"LO"
+]
+},
+{
+"id": 29,
+"word": "MAMA",
+"domain": "MM nom",
+"sense": "personne, corps",
+"cls": "nom",
+"field": "MM",
+"syllables": [
+"MA",
+"MA"
+]
+},
+{
+"id": 30,
+"word": "MAME",
+"domain": "MM personne",
+"sense": "quelqu'un, individu",
+"cls": "personne",
+"field": "MM",
+"syllables": [
+"MA",
+"ME"
+]
+},
+{
+"id": 31,
+"word": "MAMO",
+"domain": "MM adjectif",
+"sense": "entier, tout",
+"cls": "adjectif",
+"field": "MM",
+"syllables": [
+"MA",
+"MO"
+]
+},
+{
+"id": 32,
+"word": "MEMA",
+"domain": "MM nom",
+"sense": "quantité, masse (beaucoup)",
+"cls": "nom",
+"field": "MM",
+"syllables": [
+"ME",
+"MA"
+]
+},
+{
+"id": 33,
+"word": "MEME",
+"domain": "MM personne",
+"sense": "adulte",
+"cls": "personne",
+"field": "MM",
+"syllables": [
+"ME",
+"ME"
+]
+},
+{
+"id": 34,
+"word": "MEMI",
+"domain": "MM verbe",
+"sense": "grandir",
+"cls": "verbe",
+"field": "MM",
+"syllables": [
+"ME",
+"MI"
+]
+},
+{
+"id": 35,
+"word": "MEMO",
+"domain": "MM adjectif",
+"sense": "grand",
+"cls": "adjectif",
+"field": "MM",
+"syllables": [
+"ME",
+"MO"
+]
+},
+{
+"id": 36,
+"word": "MIMA",
+"domain": "MM nom",
+"sense": "partie, morceau (peu)",
+"cls": "nom",
+"field": "MM",
+"syllables": [
+"MI",
+"MA"
+]
+},
+{
+"id": 37,
+"word": "MIME",
+"domain": "MM personne",
+"sense": "enfant",
+"cls": "personne",
+"field": "MM",
+"syllables": [
+"MI",
+"ME"
+]
+},
+{
+"id": 38,
+"word": "MIMO",
+"domain": "MM adjectif",
+"sense": "petit",
+"cls": "adjectif",
+"field": "MM",
+"syllables": [
+"MI",
+"MO"
+]
+},
+{
+"id": 39,
+"word": "MOMA",
+"domain": "MM nom",
+"sense": "forme, figure",
+"cls": "nom",
+"field": "MM",
+"syllables": [
+"MO",
+"MA"
+]
+},
+{
+"id": 40,
+"word": "MOMI",
+"domain": "MM verbe",
+"sense": "former, façonner",
+"cls": "verbe",
+"field": "MM",
+"syllables": [
+"MO",
+"MI"
+]
+},
+{
+"id": 41,
+"word": "MASA",
+"domain": "MS nom",
+"sense": "vie",
+"cls": "nom",
+"field": "MS",
+"syllables": [
+"MA",
+"SA"
+]
+},
+{
+"id": 42,
+"word": "MASE",
+"domain": "MS personne",
+"sense": "être vivant",
+"cls": "personne",
+"field": "MS",
+"syllables": [
+"MA",
+"SE"
+]
+},
+{
+"id": 43,
+"word": "MASI",
+"domain": "MS verbe",
+"sense": "vivre",
+"cls": "verbe",
+"field": "MS",
+"syllables": [
+"MA",
+"SI"
+]
+},
+{
+"id": 44,
+"word": "MASO",
+"domain": "MS adjectif",
+"sense": "vivant",
+"cls": "adjectif",
+"field": "MS",
+"syllables": [
+"MA",
+"SO"
+]
+},
+{
+"id": 45,
+"word": "MESA",
+"domain": "MS nom",
+"sense": "âge, vieillesse",
+"cls": "nom",
+"field": "MS",
+"syllables": [
+"ME",
+"SA"
+]
+},
+{
+"id": 46,
+"word": "MESE",
+"domain": "MS personne",
+"sense": "ancien, vieillard",
+"cls": "personne",
+"field": "MS",
+"syllables": [
+"ME",
+"SE"
+]
+},
+{
+"id": 47,
+"word": "MESI",
+"domain": "MS verbe",
+"sense": "vieillir",
+"cls": "verbe",
+"field": "MS",
+"syllables": [
+"ME",
+"SI"
+]
+},
+{
+"id": 48,
+"word": "MESO",
+"domain": "MS adjectif",
+"sense": "vieux, ancien",
+"cls": "adjectif",
+"field": "MS",
+"syllables": [
+"ME",
+"SO"
+]
+},
+{
+"id": 49,
+"word": "MISA",
+"domain": "MS nom",
+"sense": "jeunesse, force",
+"cls": "nom",
+"field": "MS",
+"syllables": [
+"MI",
+"SA"
+]
+},
+{
+"id": 50,
+"word": "MISE",
+"domain": "MS personne",
+"sense": "jeune (personne)",
+"cls": "personne",
+"field": "MS",
+"syllables": [
+"MI",
+"SE"
+]
+},
+{
+"id": 51,
+"word": "MISO",
+"domain": "MS adjectif",
+"sense": "jeune, nouveau",
+"cls": "adjectif",
+"field": "MS",
+"syllables": [
+"MI",
+"SO"
+]
+},
+{
+"id": 52,
+"word": "MOSA",
+"domain": "MS nom",
+"sense": "mort",
+"cls": "nom",
+"field": "MS",
+"syllables": [
+"MO",
+"SA"
+]
+},
+{
+"id": 53,
+"word": "MOSE",
+"domain": "MS personne",
+"sense": "défunt",
+"cls": "personne",
+"field": "MS",
+"syllables": [
+"MO",
+"SE"
+]
+},
+{
+"id": 54,
+"word": "MOSI",
+"domain": "MS verbe",
+"sense": "mourir",
+"cls": "verbe",
+"field": "MS",
+"syllables": [
+"MO",
+"SI"
+]
+},
+{
+"id": 55,
+"word": "MAKA",
+"domain": "MK nom",
+"sense": "nourriture, repas",
+"cls": "nom",
+"field": "MK",
+"syllables": [
+"MA",
+"KA"
+]
+},
+{
+"id": 56,
+"word": "MAKE",
+"domain": "MK personne",
+"sense": "cuisinier",
+"cls": "personne",
+"field": "MK",
+"syllables": [
+"MA",
+"KE"
+]
+},
+{
+"id": 57,
+"word": "MAKI",
+"domain": "MK verbe",
+"sense": "manger",
+"cls": "verbe",
+"field": "MK",
+"syllables": [
+"MA",
+"KI"
+]
+},
+{
+"id": 58,
+"word": "MEKA",
+"domain": "MK nom",
+"sense": "vêtement",
+"cls": "nom",
+"field": "MK",
+"syllables": [
+"ME",
+"KA"
+]
+},
+{
+"id": 59,
+"word": "MEKI",
+"domain": "MK verbe",
+"sense": "s'habiller",
+"cls": "verbe",
+"field": "MK",
+"syllables": [
+"ME",
+"KI"
+]
+},
+{
+"id": 60,
+"word": "MIKA",
+"domain": "MK nom",
+"sense": "eau, boisson",
+"cls": "nom",
+"field": "MK",
+"syllables": [
+"MI",
+"KA"
+]
+},
+{
+"id": 61,
+"word": "MIKI",
+"domain": "MK verbe",
+"sense": "boire",
+"cls": "verbe",
+"field": "MK",
+"syllables": [
+"MI",
+"KI"
+]
+},
+{
+"id": 62,
+"word": "MOKA",
+"domain": "MK nom",
+"sense": "remède, soin",
+"cls": "nom",
+"field": "MK",
+"syllables": [
+"MO",
+"KA"
+]
+},
+{
+"id": 63,
+"word": "MOKE",
+"domain": "MK personne",
+"sense": "médecin",
+"cls": "personne",
+"field": "MK",
+"syllables": [
+"MO",
+"KE"
+]
+},
+{
+"id": 64,
+"word": "MOKI",
+"domain": "MK verbe",
+"sense": "soigner",
+"cls": "verbe",
+"field": "MK",
+"syllables": [
+"MO",
+"KI"
+]
+},
+{
+"id": 65,
+"word": "MALA",
+"domain": "ML nom",
+"sense": "tête, visage",
+"cls": "nom",
+"field": "ML",
+"syllables": [
+"MA",
+"LA"
+]
+},
+{
+"id": 66,
+"word": "MELA",
+"domain": "ML nom",
+"sense": "bouche",
+"cls": "nom",
+"field": "ML",
+"syllables": [
+"ME",
+"LA"
+]
+},
+{
+"id": 67,
+"word": "MILA",
+"domain": "ML nom",
+"sense": "oeil, regard",
+"cls": "nom",
+"field": "ML",
+"syllables": [
+"MI",
+"LA"
+]
+},
+{
+"id": 68,
+"word": "MILI",
+"domain": "ML verbe",
+"sense": "voir, regarder",
+"cls": "verbe",
+"field": "ML",
+"syllables": [
+"MI",
+"LI"
+]
+},
+{
+"id": 69,
+"word": "MOLA",
+"domain": "ML nom",
+"sense": "sens, sensation",
+"cls": "nom",
+"field": "ML",
+"syllables": [
+"MO",
+"LA"
+]
+},
+{
+"id": 70,
+"word": "MOLI",
+"domain": "ML verbe",
+"sense": "sentir, ressentir",
+"cls": "verbe",
+"field": "ML",
+"syllables": [
+"MO",
+"LI"
+]
+},
+{
+"id": 71,
+"word": "SAMA",
+"domain": "SM nom",
+"sense": "famille",
+"cls": "nom",
+"field": "SM",
+"syllables": [
+"SA",
+"MA"
+]
+},
+{
+"id": 72,
+"word": "SAME",
+"domain": "SM personne",
+"sense": "parent (père, mère)",
+"cls": "personne",
+"field": "SM",
+"syllables": [
+"SA",
+"ME"
+]
+},
+{
+"id": 73,
+"word": "SAMO",
+"domain": "SM adjectif",
+"sense": "familial",
+"cls": "adjectif",
+"field": "SM",
+"syllables": [
+"SA",
+"MO"
+]
+},
+{
+"id": 74,
+"word": "SEMA",
+"domain": "SM nom",
+"sense": "groupe, équipe, société",
+"cls": "nom",
+"field": "SM",
+"syllables": [
+"SE",
+"MA"
+]
+},
+{
+"id": 75,
+"word": "SEME",
+"domain": "SM personne",
+"sense": "membre, collègue",
+"cls": "personne",
+"field": "SM",
+"syllables": [
+"SE",
+"ME"
+]
+},
+{
+"id": 76,
+"word": "SEMI",
+"domain": "SM verbe",
+"sense": "se réunir",
+"cls": "verbe",
+"field": "SM",
+"syllables": [
+"SE",
+"MI"
+]
+},
+{
+"id": 77,
+"word": "SEMO",
+"domain": "SM adjectif",
+"sense": "collectif, commun",
+"cls": "adjectif",
+"field": "SM",
+"syllables": [
+"SE",
+"MO"
+]
+},
+{
+"id": 78,
+"word": "SIMA",
+"domain": "SM nom",
+"sense": "amitié, amour",
+"cls": "nom",
+"field": "SM",
+"syllables": [
+"SI",
+"MA"
+]
+},
+{
+"id": 79,
+"word": "SIME",
+"domain": "SM personne",
+"sense": "ami",
+"cls": "personne",
+"field": "SM",
+"syllables": [
+"SI",
+"ME"
+]
+},
+{
+"id": 80,
+"word": "SIMI",
+"domain": "SM verbe",
+"sense": "aimer",
+"cls": "verbe",
+"field": "SM",
+"syllables": [
+"SI",
+"MI"
+]
+},
+{
+"id": 81,
+"word": "SIMO",
+"domain": "SM adjectif",
+"sense": "cher (aimé)",
+"cls": "adjectif",
+"field": "SM",
+"syllables": [
+"SI",
+"MO"
+]
+},
+{
+"id": 82,
+"word": "SOMA",
+"domain": "SM nom",
+"sense": "lien, relation",
+"cls": "nom",
+"field": "SM",
+"syllables": [
+"SO",
+"MA"
+]
+},
+{
+"id": 83,
+"word": "SOMI",
+"domain": "SM verbe",
+"sense": "lier, relier",
+"cls": "verbe",
+"field": "SM",
+"syllables": [
+"SO",
+"MI"
+]
+},
+{
+"id": 84,
+"word": "SASA",
+"domain": "SS nom",
+"sense": "temps, moment, heure",
+"cls": "nom",
+"field": "SS",
+"syllables": [
+"SA",
+"SA"
+]
+},
+{
+"id": 85,
+"word": "SASI",
+"domain": "SS verbe",
+"sense": "durer",
+"cls": "verbe",
+"field": "SS",
+"syllables": [
+"SA",
+"SI"
+]
+},
+{
+"id": 86,
+"word": "SESA",
+"domain": "SS nom",
+"sense": "jour, lumière",
+"cls": "nom",
+"field": "SS",
+"syllables": [
+"SE",
+"SA"
+]
+},
+{
+"id": 87,
+"word": "SESO",
+"domain": "SS adjectif",
+"sense": "clair",
+"cls": "adjectif",
+"field": "SS",
+"syllables": [
+"SE",
+"SO"
+]
+},
+{
+"id": 88,
+"word": "SISA",
+"domain": "SS nom",
+"sense": "nuit",
+"cls": "nom",
+"field": "SS",
+"syllables": [
+"SI",
+"SA"
+]
+},
+{
+"id": 89,
+"word": "SISO",
+"domain": "SS adjectif",
+"sense": "sombre",
+"cls": "adjectif",
+"field": "SS",
+"syllables": [
+"SI",
+"SO"
+]
+},
+{
+"id": 90,
+"word": "SOSA",
+"domain": "SS nom",
+"sense": "année, époque",
+"cls": "nom",
+"field": "SS",
+"syllables": [
+"SO",
+"SA"
+]
+},
+{
+"id": 91,
+"word": "SAKA",
+"domain": "SK nom",
+"sense": "voyage, déplacement",
+"cls": "nom",
+"field": "SK",
+"syllables": [
+"SA",
+"KA"
+]
+},
+{
+"id": 92,
+"word": "SAKE",
+"domain": "SK personne",
+"sense": "voyageur",
+"cls": "personne",
+"field": "SK",
+"syllables": [
+"SA",
+"KE"
+]
+},
+{
+"id": 93,
+"word": "SAKI",
+"domain": "SK verbe",
+"sense": "aller, bouger",
+"cls": "verbe",
+"field": "SK",
+"syllables": [
+"SA",
+"KI"
+]
+},
+{
+"id": 94,
+"word": "SAKO",
+"domain": "SK adjectif",
+"sense": "rapide",
+"cls": "adjectif",
+"field": "SK",
+"syllables": [
+"SA",
+"KO"
+]
+},
+{
+"id": 95,
+"word": "SEKA",
+"domain": "SK nom",
+"sense": "départ, début",
+"cls": "nom",
+"field": "SK",
+"syllables": [
+"SE",
+"KA"
+]
+},
+{
+"id": 96,
+"word": "SEKI",
+"domain": "SK verbe",
+"sense": "partir, commencer",
+"cls": "verbe",
+"field": "SK",
+"syllables": [
+"SE",
+"KI"
+]
+},
+{
+"id": 97,
+"word": "SIKA",
+"domain": "SK nom",
+"sense": "arrivée, fin",
+"cls": "nom",
+"field": "SK",
+"syllables": [
+"SI",
+"KA"
+]
+},
+{
+"id": 98,
+"word": "SIKI",
+"domain": "SK verbe",
+"sense": "arriver, venir, finir",
+"cls": "verbe",
+"field": "SK",
+"syllables": [
+"SI",
+"KI"
+]
+},
+{
+"id": 99,
+"word": "SIKO",
+"domain": "SK adjectif",
+"sense": "fini, arrivé",
+"cls": "adjectif",
+"field": "SK",
+"syllables": [
+"SI",
+"KO"
+]
+},
+{
+"id": 100,
+"word": "SOKA",
+"domain": "SK nom",
+"sense": "don, échange",
+"cls": "nom",
+"field": "SK",
+"syllables": [
+"SO",
+"KA"
+]
+},
+{
+"id": 101,
+"word": "SOKI",
+"domain": "SK verbe",
+"sense": "donner, apporter",
+"cls": "verbe",
+"field": "SK",
+"syllables": [
+"SO",
+"KI"
+]
+},
+{
+"id": 102,
+"word": "SALA",
+"domain": "SL nom",
+"sense": "chemin, rue",
+"cls": "nom",
+"field": "SL",
+"syllables": [
+"SA",
+"LA"
+]
+},
+{
+"id": 103,
+"word": "SALI",
+"domain": "SL verbe",
+"sense": "marcher, suivre",
+"cls": "verbe",
+"field": "SL",
+"syllables": [
+"SA",
+"LI"
+]
+},
+{
+"id": 104,
+"word": "SELA",
+"domain": "SL nom",
+"sense": "le dehors, le lointain",
+"cls": "nom",
+"field": "SL",
+"syllables": [
+"SE",
+"LA"
+]
+},
+{
+"id": 105,
+"word": "SELO",
+"domain": "SL adjectif",
+"sense": "loin, long",
+"cls": "adjectif",
+"field": "SL",
+"syllables": [
+"SE",
+"LO"
+]
+},
+{
+"id": 106,
+"word": "SILA",
+"domain": "SL nom",
+"sense": "le dedans, le voisinage",
+"cls": "nom",
+"field": "SL",
+"syllables": [
+"SI",
+"LA"
+]
+},
+{
+"id": 107,
+"word": "SILE",
+"domain": "SL personne",
+"sense": "voisin",
+"cls": "personne",
+"field": "SL",
+"syllables": [
+"SI",
+"LE"
+]
+},
+{
+"id": 108,
+"word": "SILO",
+"domain": "SL adjectif",
+"sense": "proche, court",
+"cls": "adjectif",
+"field": "SL",
+"syllables": [
+"SI",
+"LO"
+]
+},
+{
+"id": 109,
+"word": "SOLA",
+"domain": "SL nom",
+"sense": "porte, passage",
+"cls": "nom",
+"field": "SL",
+"syllables": [
+"SO",
+"LA"
+]
+},
+{
+"id": 110,
+"word": "SOLI",
+"domain": "SL verbe",
+"sense": "passer, ouvrir (un passage)",
+"cls": "verbe",
+"field": "SL",
+"syllables": [
+"SO",
+"LI"
+]
+},
+{
+"id": 111,
+"word": "KAMA",
+"domain": "KM nom",
+"sense": "outil, objet, chose",
+"cls": "nom",
+"field": "KM",
+"syllables": [
+"KA",
+"MA"
+]
+},
+{
+"id": 112,
+"word": "KAME",
+"domain": "KM personne",
+"sense": "artisan",
+"cls": "personne",
+"field": "KM",
+"syllables": [
+"KA",
+"ME"
+]
+},
+{
+"id": 113,
+"word": "KAMI",
+"domain": "KM verbe",
+"sense": "fabriquer, construire",
+"cls": "verbe",
+"field": "KM",
+"syllables": [
+"KA",
+"MI"
+]
+},
+{
+"id": 114,
+"word": "KAMO",
+"domain": "KM adjectif",
+"sense": "fabriqué",
+"cls": "adjectif",
+"field": "KM",
+"syllables": [
+"KA",
+"MO"
+]
+},
+{
+"id": 115,
+"word": "KEMA",
+"domain": "KM nom",
+"sense": "table, meuble",
+"cls": "nom",
+"field": "KM",
+"syllables": [
+"KE",
+"MA"
+]
+},
+{
+"id": 116,
+"word": "KIMA",
+"domain": "KM nom",
+"sense": "lit, siège",
+"cls": "nom",
+"field": "KM",
+"syllables": [
+"KI",
+"MA"
+]
+},
+{
+"id": 117,
+"word": "KOMA",
+"domain": "KM nom",
+"sense": "produit, marchandise",
+"cls": "nom",
+"field": "KM",
+"syllables": [
+"KO",
+"MA"
+]
+},
+{
+"id": 118,
+"word": "KASA",
+"domain": "KS nom",
+"sense": "argent, valeur",
+"cls": "nom",
+"field": "KS",
+"syllables": [
+"KA",
+"SA"
+]
+},
+{
+"id": 119,
+"word": "KASE",
+"domain": "KS personne",
+"sense": "marchand",
+"cls": "personne",
+"field": "KS",
+"syllables": [
+"KA",
+"SE"
+]
+},
+{
+"id": 120,
+"word": "KASI",
+"domain": "KS verbe",
+"sense": "acheter, payer",
+"cls": "verbe",
+"field": "KS",
+"syllables": [
+"KA",
+"SI"
+]
+},
+{
+"id": 121,
+"word": "KASO",
+"domain": "KS adjectif",
+"sense": "cher (coûteux)",
+"cls": "adjectif",
+"field": "KS",
+"syllables": [
+"KA",
+"SO"
+]
+},
+{
+"id": 122,
+"word": "KESA",
+"domain": "KS nom",
+"sense": "prix",
+"cls": "nom",
+"field": "KS",
+"syllables": [
+"KE",
+"SA"
+]
+},
+{
+"id": 123,
+"word": "KESI",
+"domain": "KS verbe",
+"sense": "vendre",
+"cls": "verbe",
+"field": "KS",
+"syllables": [
+"KE",
+"SI"
+]
+},
+{
+"id": 124,
+"word": "KISA",
+"domain": "KS nom",
+"sense": "service, aide",
+"cls": "nom",
+"field": "KS",
+"syllables": [
+"KI",
+"SA"
+]
+},
+{
+"id": 125,
+"word": "KISI",
+"domain": "KS verbe",
+"sense": "aider, servir",
+"cls": "verbe",
+"field": "KS",
+"syllables": [
+"KI",
+"SI"
+]
+},
+{
+"id": 126,
+"word": "KOSA",
+"domain": "KS nom",
+"sense": "commerce, marché",
+"cls": "nom",
+"field": "KS",
+"syllables": [
+"KO",
+"SA"
+]
+},
+{
+"id": 127,
+"word": "KOSI",
+"domain": "KS verbe",
+"sense": "échanger, commercer",
+"cls": "verbe",
+"field": "KS",
+"syllables": [
+"KO",
+"SI"
+]
+},
+{
+"id": 128,
+"word": "KAKA",
+"domain": "KK nom",
+"sense": "acte, action",
+"cls": "nom",
+"field": "KK",
+"syllables": [
+"KA",
+"KA"
+]
+},
+{
+"id": 129,
+"word": "KAKI",
+"domain": "KK verbe",
+"sense": "faire, agir",
+"cls": "verbe",
+"field": "KK",
+"syllables": [
+"KA",
+"KI"
+]
+},
+{
+"id": 130,
+"word": "KAKO",
+"domain": "KK adjectif",
+"sense": "actif",
+"cls": "adjectif",
+"field": "KK",
+"syllables": [
+"KA",
+"KO"
+]
+},
+{
+"id": 131,
+"word": "KEKA",
+"domain": "KK nom",
+"sense": "travail, métier",
+"cls": "nom",
+"field": "KK",
+"syllables": [
+"KE",
+"KA"
+]
+},
+{
+"id": 132,
+"word": "KEKE",
+"domain": "KK personne",
+"sense": "travailleur",
+"cls": "personne",
+"field": "KK",
+"syllables": [
+"KE",
+"KE"
+]
+},
+{
+"id": 133,
+"word": "KEKI",
+"domain": "KK verbe",
+"sense": "travailler",
+"cls": "verbe",
+"field": "KK",
+"syllables": [
+"KE",
+"KI"
+]
+},
+{
+"id": 134,
+"word": "KIKA",
+"domain": "KK nom",
+"sense": "tâche, détail",
+"cls": "nom",
+"field": "KK",
+"syllables": [
+"KI",
+"KA"
+]
+},
+{
+"id": 135,
+"word": "KOKA",
+"domain": "KK nom",
+"sense": "projet",
+"cls": "nom",
+"field": "KK",
+"syllables": [
+"KO",
+"KA"
+]
+},
+{
+"id": 136,
+"word": "KOKI",
+"domain": "KK verbe",
+"sense": "prévoir, projeter",
+"cls": "verbe",
+"field": "KK",
+"syllables": [
+"KO",
+"KI"
+]
+},
+{
+"id": 137,
+"word": "KALA",
+"domain": "KL nom",
+"sense": "décision, direction",
+"cls": "nom",
+"field": "KL",
+"syllables": [
+"KA",
+"LA"
+]
+},
+{
+"id": 138,
+"word": "KALE",
+"domain": "KL personne",
+"sense": "chef, responsable",
+"cls": "personne",
+"field": "KL",
+"syllables": [
+"KA",
+"LE"
+]
+},
+{
+"id": 139,
+"word": "KALI",
+"domain": "KL verbe",
+"sense": "décider, diriger",
+"cls": "verbe",
+"field": "KL",
+"syllables": [
+"KA",
+"LI"
+]
+},
+{
+"id": 140,
+"word": "KELA",
+"domain": "KL nom",
+"sense": "plan, méthode",
+"cls": "nom",
+"field": "KL",
+"syllables": [
+"KE",
+"LA"
+]
+},
+{
+"id": 141,
+"word": "KELI",
+"domain": "KL verbe",
+"sense": "planifier",
+"cls": "verbe",
+"field": "KL",
+"syllables": [
+"KE",
+"LI"
+]
+},
+{
+"id": 142,
+"word": "KILA",
+"domain": "KL nom",
+"sense": "étude, recherche",
+"cls": "nom",
+"field": "KL",
+"syllables": [
+"KI",
+"LA"
+]
+},
+{
+"id": 143,
+"word": "KILE",
+"domain": "KL personne",
+"sense": "chercheur",
+"cls": "personne",
+"field": "KL",
+"syllables": [
+"KI",
+"LE"
+]
+},
+{
+"id": 144,
+"word": "KILI",
+"domain": "KL verbe",
+"sense": "étudier, chercher",
+"cls": "verbe",
+"field": "KL",
+"syllables": [
+"KI",
+"LI"
+]
+},
+{
+"id": 145,
+"word": "KOLA",
+"domain": "KL nom",
+"sense": "objectif, but",
+"cls": "nom",
+"field": "KL",
+"syllables": [
+"KO",
+"LA"
+]
+},
+{
+"id": 146,
+"word": "KOLI",
+"domain": "KL verbe",
+"sense": "vouloir, viser",
+"cls": "verbe",
+"field": "KL",
+"syllables": [
+"KO",
+"LI"
+]
+},
+{
+"id": 147,
+"word": "LAMA",
+"domain": "LM nom",
+"sense": "maison, bâtiment",
+"cls": "nom",
+"field": "LM",
+"syllables": [
+"LA",
+"MA"
+]
+},
+{
+"id": 148,
+"word": "LAME",
+"domain": "LM personne",
+"sense": "habitant",
+"cls": "personne",
+"field": "LM",
+"syllables": [
+"LA",
+"ME"
+]
+},
+{
+"id": 149,
+"word": "LAMI",
+"domain": "LM verbe",
+"sense": "habiter",
+"cls": "verbe",
+"field": "LM",
+"syllables": [
+"LA",
+"MI"
+]
+},
+{
+"id": 150,
+"word": "LEMA",
+"domain": "LM nom",
+"sense": "ville",
+"cls": "nom",
+"field": "LM",
+"syllables": [
+"LE",
+"MA"
+]
+},
+{
+"id": 151,
+"word": "LEME",
+"domain": "LM personne",
+"sense": "citoyen",
+"cls": "personne",
+"field": "LM",
+"syllables": [
+"LE",
+"ME"
+]
+},
+{
+"id": 152,
+"word": "LIMA",
+"domain": "LM nom",
+"sense": "pièce, chambre",
+"cls": "nom",
+"field": "LM",
+"syllables": [
+"LI",
+"MA"
+]
+},
+{
+"id": 153,
+"word": "LOMA",
+"domain": "LM nom",
+"sense": "monde, pays, terre",
+"cls": "nom",
+"field": "LM",
+"syllables": [
+"LO",
+"MA"
+]
+},
+{
+"id": 154,
+"word": "LASA",
+"domain": "LS nom",
+"sense": "parole, mot",
+"cls": "nom",
+"field": "LS",
+"syllables": [
+"LA",
+"SA"
+]
+},
+{
+"id": 155,
+"word": "LASI",
+"domain": "LS verbe",
+"sense": "parler, dire, expliquer",
+"cls": "verbe",
+"field": "LS",
+"syllables": [
+"LA",
+"SI"
+]
+},
+{
+"id": 156,
+"word": "LESA",
+"domain": "LS nom",
+"sense": "langue, langage",
+"cls": "nom",
+"field": "LS",
+"syllables": [
+"LE",
+"SA"
+]
+},
+{
+"id": 157,
+"word": "LISA",
+"domain": "LS nom",
+"sense": "nom",
+"cls": "nom",
+"field": "LS",
+"syllables": [
+"LI",
+"SA"
+]
+},
+{
+"id": 158,
+"word": "LISI",
+"domain": "LS verbe",
+"sense": "nommer, appeler",
+"cls": "verbe",
+"field": "LS",
+"syllables": [
+"LI",
+"SI"
+]
+},
+{
+"id": 159,
+"word": "LOSA",
+"domain": "LS nom",
+"sense": "sens, signification",
+"cls": "nom",
+"field": "LS",
+"syllables": [
+"LO",
+"SA"
+]
+},
+{
+"id": 160,
+"word": "LOSI",
+"domain": "LS verbe",
+"sense": "signifier",
+"cls": "verbe",
+"field": "LS",
+"syllables": [
+"LO",
+"SI"
+]
+},
+{
+"id": 161,
+"word": "LAKA",
+"domain": "LK nom",
+"sense": "livre, document",
+"cls": "nom",
+"field": "LK",
+"syllables": [
+"LA",
+"KA"
+]
+},
+{
+"id": 162,
+"word": "LAKE",
+"domain": "LK personne",
+"sense": "auteur",
+"cls": "personne",
+"field": "LK",
+"syllables": [
+"LA",
+"KE"
+]
+},
+{
+"id": 163,
+"word": "LAKI",
+"domain": "LK verbe",
+"sense": "écrire",
+"cls": "verbe",
+"field": "LK",
+"syllables": [
+"LA",
+"KI"
+]
+},
+{
+"id": 164,
+"word": "LAKO",
+"domain": "LK adjectif",
+"sense": "écrit",
+"cls": "adjectif",
+"field": "LK",
+"syllables": [
+"LA",
+"KO"
+]
+},
+{
+"id": 165,
+"word": "LEKA",
+"domain": "LK nom",
+"sense": "école",
+"cls": "nom",
+"field": "LK",
+"syllables": [
+"LE",
+"KA"
+]
+},
+{
+"id": 166,
+"word": "LEKE",
+"domain": "LK personne",
+"sense": "maître, enseignant",
+"cls": "personne",
+"field": "LK",
+"syllables": [
+"LE",
+"KE"
+]
+},
+{
+"id": 167,
+"word": "LEKI",
+"domain": "LK verbe",
+"sense": "enseigner",
+"cls": "verbe",
+"field": "LK",
+"syllables": [
+"LE",
+"KI"
+]
+},
+{
+"id": 168,
+"word": "LIKA",
+"domain": "LK nom",
+"sense": "leçon",
+"cls": "nom",
+"field": "LK",
+"syllables": [
+"LI",
+"KA"
+]
+},
+{
+"id": 169,
+"word": "LIKE",
+"domain": "LK personne",
+"sense": "élève",
+"cls": "personne",
+"field": "LK",
+"syllables": [
+"LI",
+"KE"
+]
+},
+{
+"id": 170,
+"word": "LIKI",
+"domain": "LK verbe",
+"sense": "apprendre",
+"cls": "verbe",
+"field": "LK",
+"syllables": [
+"LI",
+"KI"
+]
+},
+{
+"id": 171,
+"word": "LOKA",
+"domain": "LK nom",
+"sense": "règle, loi",
+"cls": "nom",
+"field": "LK",
+"syllables": [
+"LO",
+"KA"
+]
+},
+{
+"id": 172,
+"word": "LALA",
+"domain": "LL nom",
+"sense": "pensée, esprit",
+"cls": "nom",
+"field": "LL",
+"syllables": [
+"LA",
+"LA"
+]
+},
+{
+"id": 173,
+"word": "LALE",
+"domain": "LL personne",
+"sense": "sage",
+"cls": "personne",
+"field": "LL",
+"syllables": [
+"LA",
+"LE"
+]
+},
+{
+"id": 174,
+"word": "LALI",
+"domain": "LL verbe",
+"sense": "penser",
+"cls": "verbe",
+"field": "LL",
+"syllables": [
+"LA",
+"LI"
+]
+},
+{
+"id": 175,
+"word": "LELA",
+"domain": "LL nom",
+"sense": "savoir, connaissance",
+"cls": "nom",
+"field": "LL",
+"syllables": [
+"LE",
+"LA"
+]
+},
+{
+"id": 176,
+"word": "LELE",
+"domain": "LL personne",
+"sense": "savant",
+"cls": "personne",
+"field": "LL",
+"syllables": [
+"LE",
+"LE"
+]
+},
+{
+"id": 177,
+"word": "LELI",
+"domain": "LL verbe",
+"sense": "savoir, connaître",
+"cls": "verbe",
+"field": "LL",
+"syllables": [
+"LE",
+"LI"
+]
+},
+{
+"id": 178,
+"word": "LELO",
+"domain": "LL adjectif",
+"sense": "vrai, connu",
+"cls": "adjectif",
+"field": "LL",
+"syllables": [
+"LE",
+"LO"
+]
+},
+{
+"id": 179,
+"word": "LILA",
+"domain": "LL nom",
+"sense": "mémoire, souvenir",
+"cls": "nom",
+"field": "LL",
+"syllables": [
+"LI",
+"LA"
+]
+},
+{
+"id": 180,
+"word": "LILI",
+"domain": "LL verbe",
+"sense": "se souvenir",
+"cls": "verbe",
+"field": "LL",
+"syllables": [
+"LI",
+"LI"
+]
+},
+{
+"id": 181,
+"word": "LOLA",
+"domain": "LL nom",
+"sense": "idée, concept",
+"cls": "nom",
+"field": "LL",
+"syllables": [
+"LO",
+"LA"
+]
+},
+{
+"id": 182,
+"word": "LOLI",
+"domain": "LL verbe",
+"sense": "imaginer, concevoir",
+"cls": "verbe",
+"field": "LL",
+"syllables": [
+"LO",
+"LI"
+]
+},
+{
+"id": 183,
+"word": "MAMAKA",
+"domain": "MM nom",
+"sense": "la main",
+"cls": "nom",
+"field": "MM",
+"syllables": [
+"MA",
+"MA",
+"KA"
+]
+},
+{
+"id": 184,
+"word": "MAMASA",
+"domain": "MM nom",
+"sense": "le pied",
+"cls": "nom",
+"field": "MM",
+"syllables": [
+"MA",
+"MA",
+"SA"
+]
+},
+{
+"id": 185,
+"word": "LAMALA",
+"domain": "LM nom",
+"sense": "la fenêtre (maison, angle lieu)",
+"cls": "nom",
+"field": "LM",
+"syllables": [
+"LA",
+"MA",
+"LA"
+]
+},
+{
+"id": 186,
+"word": "SESAKA",
+"domain": "SS nom",
+"sense": "le matin",
+"cls": "nom",
+"field": "SS",
+"syllables": [
+"SE",
+"SA",
+"KA"
+]
+},
+{
+"id": 187,
+"word": "SESALA",
+"domain": "SS nom",
+"sense": "le soir (jour, angle lieu)",
+"cls": "nom",
+"field": "SS",
+"syllables": [
+"SE",
+"SA",
+"LA"
+]
+},
+{
+"id": 188,
+"word": "SOLAKA",
+"domain": "SL nom",
+"sense": "la clé (porte, angle outil)",
+"cls": "nom",
+"field": "SL",
+"syllables": [
+"SO",
+"LA",
+"KA"
+]
+},
+{
+"id": 189,
+"word": "MALO",
+"domain": "ML adjectif",
+"sense": "beau",
+"cls": "adjectif",
+"field": "ML",
+"syllables": [
+"MA",
+"LO"
+]
+},
+{
+"id": 190,
+"word": "MAKO",
+"domain": "MK adjectif",
+"sense": "sain",
+"cls": "adjectif",
+"field": "MK",
+"syllables": [
+"MA",
+"KO"
+]
+},
+{
+"id": 191,
+"word": "KALO",
+"domain": "KL adjectif",
+"sense": "bon",
+"cls": "adjectif",
+"field": "KL",
+"syllables": [
+"KA",
+"LO"
+]
+},
+{
+"id": 192,
+"word": "MAMA-MAKI",
+"domain": "composé",
+"sense": "convive, mangeur (personne, manger)",
+"cls": "compose",
+"field": "",
+"syllables": [
+"MA",
+"MA",
+"MA",
+"KI"
+]
+},
+{
+"id": 193,
+"word": "MILI-LAKA",
+"domain": "composé",
+"sense": "lire (voir, livre)",
+"cls": "compose",
+"field": "",
+"syllables": [
+"MI",
+"LI",
+"LA",
+"KA"
+]
+},
+{
+"id": 194,
+"word": "SEKI-KIMA",
+"domain": "composé",
+"sense": "se lever (partir, lit)",
+"cls": "compose",
+"field": "",
+"syllables": [
+"SE",
+"KI",
+"KI",
+"MA"
+]
+},
+{
+"id": 195,
+"word": "LAKA-KEKA",
+"domain": "composé",
+"sense": "liste de tâches (document, travail)",
+"cls": "compose",
+"field": "",
+"syllables": [
+"LA",
+"KA",
+"KE",
+"KA"
+]
+}
+]

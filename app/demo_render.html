@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quadra, démo du rendu</title>
+<style>
+  :root { color-scheme: light dark; --bg: #faf8f2; --fg: #1d1d1f; --line: #cfc9bb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151517; --fg: #f2efe8; --line: #444448; } }
+  body { margin: 0 auto; padding: 16px; max-width: 460px; background: var(--bg); color: var(--fg);
+    font: 16px/1.4 sans-serif; }
+  #phrase { overflow-x: auto; }
+  h2 { font-size: 15px; margin: 24px 0 8px; }
+  .row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+  table { border-collapse: collapse; }
+  td { border: 1px solid var(--line); padding: 4px 6px; text-align: center; }
+  #typed { min-height: 90px; border: 1px solid var(--line); border-radius: 8px; padding: 8px; overflow-x: auto; }
+  #latin { font-family: monospace; margin: 6px 0; min-height: 1.4em; }
+  button.act { min-height: 44px; padding: 0 16px; font-size: 16px; }
+  #status { font-size: 13px; opacity: .7; }
+</style>
+</head>
+<body>
+<h1>Quadra, rendu</h1>
+<h2>Phrase en trois tailles</h2>
+<div id="phrase"></div>
+<h2>Les 16 syllabes</h2>
+<div id="table"></div>
+<h2>Composé et nombre</h2>
+<div class="row" id="misc"></div>
+<h2>Clavier</h2>
+<div id="typed"></div>
+<div id="latin"></div>
+<div class="row">
+  <button class="act" id="listen">Écouter</button>
+  <span id="status"></span>
+</div>
+<div id="kb"></div>
+<script type="module">
+import { bus } from "./js/bus.js";
+import { renderText, renderSyllable } from "./js/glyphs.js";
+import { mount } from "./js/keyboard.js";
+import { speak } from "./js/audio.js";
+
+const $ = (id) => document.getElementById(id);
+const PHRASE = "KALE LASI LOLA KOKA KA SEMA KILA";
+
+for (const size of [28, 44, 64]) {
+  const d = document.createElement("div");
+  d.append(renderText(PHRASE, { size }));
+  $("phrase").append(d);
+}
+
+const t = document.createElement("table");
+for (const c of "MSKL") {
+  const tr = t.insertRow();
+  for (const v of "AEIO") tr.insertCell().append(renderSyllable(c + v, { size: 36, showLatin: true }));
+}
+$("table").append(t);
+
+for (const x of ["MAMA-MAKI", "KK"]) $("misc").append(renderText(x, { size: 44, showLatin: true }));
+
+// L'écran tient le texte : une liste d'unités, le clavier n'en garde pas.
+let units = [];
+const kind = (u) => (u.length === 1 && "MSKL".includes(u) ? "bare" : u === " " || u === "-" ? "sep" : "syl");
+function push(u) {
+  const last = units.at(-1);
+  if (last && kind(last) !== "sep" && kind(u) !== "sep" && kind(last) !== kind(u)) units.push(" ");
+  units.push(u);
+  render();
+}
+function render() {
+  const text = units.join("");
+  $("typed").replaceChildren(text ? renderText(text, { size: 44 }) : "");
+  $("latin").textContent = text;
+  bus.emit("inputChanged", { text });
+}
+bus.on("syllableTapped", ({ syllable }) => push(syllable));
+bus.on("digitTapped", ({ digit }) => push(digit));
+bus.on("keyTapped", ({ key }) => {
+  if (key === "space") push(" ");
+  else if (key === "hyphen") push("-");
+  else { units.pop(); render(); }
+});
+bus.on("spoke", ({ source }) => { $("status").textContent = `source : ${source}`; });
+$("listen").addEventListener("click", () => speak(units.join("")).catch((e) => { $("status").textContent = e.message; }));
+
+mount($("kb"));
+</script>
+</body>
+</html>

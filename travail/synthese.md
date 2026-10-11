@@ -124,3 +124,27 @@ premier mot, tiret = jeton nombre MM (8 bits) dans le flux binaire. Les
 locutions deviennent des composés : MILI-LAKA lire, SEKI-KIMA se lever,
 LAKA-KEKA liste.
 Grammaire : règles 16 à 21 (modaux, passif, complétive, cause, ou, intensif).
+
+## Cycle 6 : paires minimales mesurées
+
+`pairs` classe les 748 paires : 195 risque fort (même champ, même classe),
+385 moyen (même classe, champ différent), 168 faible (classe différente).
+Le risque fort est structurel : chaque ligne de la grille (MAKA, MEKA, MIKA,
+MOKA) est une série de paires minimales dans le même emplacement de phrase.
+Prononciation fixée dans la spec (A, E ouvert, I, O fermé).
+Question de Mostfa : 350 mots suffisent pour parler ? Oui avec composition.
+Décision en attente : comment traiter les paires fortes à l'oral.
+
+## Cycle 7 : application d'apprentissage, v1
+
+2026-10-11. Dossier app/. Page publiée : https://claude.ai/artifact/DzkpjmXtMmQSLgFdXY2kG8
+- Spec : app/SPEC_APP.md. Bus d'événements : js/bus.js.
+- Builder A (Sonnet) : glyphs.js, glyph-marks.js (SVG, I sous la consonne),
+  keyboard.js (4 x 4 plus chiffres), audio.js (clips assemblés, repli synthèse).
+- Builder B (Sonnet) : lexicon.js, exercises.js (8 types), srs.js (Leitner 5
+  boîtes), lessons.js (unité 0, 16 champs, unité 17), data/phrases.json (34).
+- Intégration : index.html, js/app.js, js/lesson-view.js. 6 fichiers de tests
+  Node passent (node tests/run.mjs).
+- Son : 20 clips WAV générés par la voix Thomas de macOS (app/audio/gen_clips.sh),
+  assemblage de référence app/speak.py, démos dans app/demo/.
+Non vérifié : le son dans le navigateur, le toucher sur téléphone.

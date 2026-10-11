@@ -168,12 +168,12 @@ def main(argv):
     elif cmd in ("bits", "unbits"):
         import quadra_bits
         return quadra_bits.main(argv)
-    elif cmd in ("free", "pairs", "legacy"):
+    elif cmd in ("free", "pairs", "legacy", "propose"):
         import quadra_lex
         return quadra_lex.main(argv)
     else:
         print(__doc__)
-        print("commandes : check | encode MOT | decode HEX | num N | parse CHIFFRES | gloss PHRASE | bits PHRASE | unbits HEX | free | pairs | legacy")
+        print("commandes : check | encode MOT | decode HEX | num N | parse CHIFFRES | gloss PHRASE | bits PHRASE | unbits HEX | free | pairs | legacy | propose RACINE CLASSE [ANGLE]")
     return 0
 
 

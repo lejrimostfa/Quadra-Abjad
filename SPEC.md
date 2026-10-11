@@ -22,6 +22,10 @@ système. Ils se changent en une ligne.
 
 ## 2. Phonotactique
 
+Prononciation : A ouvert comme dans "la", E ouvert comme dans "père", I comme
+dans "si", O fermé comme dans "eau". E et I restent la paire la plus proche à
+l'oreille. Les consonnes M, S, K, L sont aux quatre coins de la bouche.
+
 - Une **syllabe** est une consonne suivie d'une voyelle. 16 syllabes.
 - Un **mot** est une suite de 1 à 4 syllabes. Pas de consonne nue dans un mot.
 - Une syllabe = mot grammatical (GRAMMAIRE.md). Deux syllabes = mot de la grille (section 5).
@@ -135,7 +139,12 @@ le champ d'un mot, jamais son sens exact. Au-delà du noyau, un mot s'apprend.
 **Distance entre les mots.** Quatre voyelles donnent des paires à une lettre
 d'écart en série (KIKA, KIMA, KILA). Règle : deux mots fréquents de la même
 classe ne doivent pas différer d'une seule lettre si leurs sens peuvent se
-confondre dans une phrase. `python3 quadra.py pairs` liste les paires.
+confondre dans une phrase. `python3 quadra.py pairs` liste les paires par
+risque. Mesure au 2026-10-11, 196 entrées : 748 paires, dont 195 de risque
+fort (même champ, même classe, donc même place dans la phrase). Ce risque
+fort est structurel : les quatre nuances d'une case ne diffèrent que par la
+première voyelle. À l'écrit, aucun effet. À l'oral, c'est la limite de la
+grille, à traiter par la prononciation (section 2) et par les composés.
 
 Le lexique complet vit dans `lexique.tsv`. Les 16 tableaux 4 x 4 remplis sont
 dans `travail/chercheur.md`, section A.5.
@@ -151,17 +160,18 @@ KALE action-esprit-personne, LASI esprit-lien-verbe, LOLA esprit-esprit-abstrait
 ## 7. Écriture diacritique
 
 Consonne en minuscule, voyelle en signe combinant, texte stocké en NFD.
+I se place sous la consonne, comme la kasra en arabe : I = intérieur.
 
 | Voyelle | Signe | Unicode |
 |---|---|---|
 | A | point suscrit | U+0307 |
 | E | accent aigu | U+0301 |
-| I | accent grave | U+0300 |
+| I | point souscrit, sous la consonne | U+0323 |
 | O | rond suscrit | U+030A |
 
 Chiffre = consonne nue. Polices vérifiées : SF, Arial, Times New Roman,
 Courier New, Helvetica, Menlo. Verdana manque le point et le rond.
-Exemple : m̀ś ḱl̀ l̊ṁ k̇ṁ k̇ ṁṁ k̀l̊ (ancienne phrase MISE KELI ...).
+Exemple : ṃś ḱḷ l̊ṁ k̇ṁ k̇ ṁṁ ḳl̊ (ancienne phrase MISE KELI ...).
 
 ## 8. Points ouverts
 
@@ -175,15 +185,14 @@ Exemple : m̀ś ḱl̀ l̊ṁ k̇ṁ k̇ ṁṁ k̀l̊ (ancienne phrase MISE KEL
   propres se choisissent.
 - SEKI vaut partir et commencer, SIKI arriver et finir. Polysémie assumée.
 - Nombres au-dessus de 65535 : pas prévus dans le flux binaire.
-- Historique : la v0.2 avait un lexique arbitraire de 25 mots. 21 ont
-  changé de forme en v0.3 (voir travail/chercheur.md, A.6).
 
 ## 9. Outils
 
 ```
 python3 quadra.py check                # vérifie le lexique
 python3 quadra.py free                 # cases libres de la grille
-python3 quadra.py pairs                # paires minimales du lexique
+python3 quadra.py pairs                # paires minimales par risque
+python3 quadra.py propose SOLA nom K   # formes libres pour un mot nouveau
 python3 quadra.py encode KALE          # base 4, hex, octets
 python3 quadra.py num 10               # 10 -> KK
 python3 quadra.py parse KK             # KK -> 10

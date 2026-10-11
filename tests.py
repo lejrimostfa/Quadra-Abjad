@@ -3,7 +3,7 @@
 from quadra import (syllables, encode, decode_hex, is_word, num_to_quadra,
                     quadra_to_num, check, gloss)
 from quadra_bits import bits, to_bytes, unbits, token_bits
-from quadra_lex import free_cells, minimal_pairs
+from quadra_lex import free_cells, minimal_pairs, propose
 
 
 def test_mots():
@@ -51,7 +51,15 @@ def test_composes():
 
 def test_lex():
     assert all(c[3] != "A" for c in free_cells())
-    assert all(len(a) == 4 for a, _, b, _ in minimal_pairs())
+    assert all(len(a) == 4 and r in (1, 2, 3) for a, _, b, _, r in minimal_pairs())
+
+
+def test_propose():
+    short, long_ = propose("SOLA", "nom", "K")
+    assert long_ == [("SOLAKA", "la clé (porte, angle outil)")]
+    assert [f for f, _ in short] == ["SALA", "SELA", "SILA", "SOLA"]
+    _, long_ = propose("LAKA", "verbe")
+    assert [f for f, _ in long_] == ["LAKAMI", "LAKASI", "LAKAKI", "LAKALI"]
 
 
 if __name__ == "__main__":
