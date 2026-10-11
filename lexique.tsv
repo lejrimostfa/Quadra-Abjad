@@ -1,0 +1,182 @@
+mot	domaine	sens
+MA	grammaire	est, être (présent)
+ME	grammaire	marqueur de passé
+SA	grammaire	avec, ensemble, et
+SO	grammaire	question, demande polie (en tête)
+KA	grammaire	pour, vers, à
+KI	grammaire	dans, intérieur
+LO	grammaire	mais, cependant
+LE	grammaire	hors de, dehors
+MI	grammaire	je, moi
+MO	grammaire	tu, toi
+LI	grammaire	il, elle, ça
+SE	grammaire	pluriel
+KO	grammaire	négation
+KE	grammaire	marqueur de futur
+SI	grammaire	si, condition (en tête de la subordonnée)
+LA	grammaire	relatif (que, qui), après le nom
+MAMA	MM nom	personne, corps
+MAME	MM personne	quelqu'un, individu
+MAMO	MM adjectif	entier, tout
+MEMA	MM nom	quantité, masse (beaucoup)
+MEME	MM personne	adulte
+MEMI	MM verbe	grandir
+MEMO	MM adjectif	grand
+MIMA	MM nom	partie, morceau (peu)
+MIME	MM personne	enfant
+MIMO	MM adjectif	petit
+MOMA	MM nom	forme, figure
+MOMI	MM verbe	former, façonner
+MOMO	MM adjectif	beau
+MASA	MS nom	vie
+MASE	MS personne	être vivant
+MASI	MS verbe	vivre
+MASO	MS adjectif	vivant
+MESA	MS nom	âge, vieillesse
+MESE	MS personne	ancien, vieillard
+MESI	MS verbe	vieillir
+MESO	MS adjectif	vieux, ancien
+MISA	MS nom	jeunesse, force
+MISE	MS personne	jeune (personne)
+MISO	MS adjectif	jeune, nouveau
+MOSA	MS nom	mort
+MOSE	MS personne	défunt
+MOSI	MS verbe	mourir
+MOSO	MS adjectif	mort (adj)
+MAKA	MK nom	nourriture, repas
+MAKE	MK personne	cuisinier
+MAKI	MK verbe	manger
+MEKA	MK nom	vêtement
+MEKI	MK verbe	s'habiller
+MIKA	MK nom	eau, boisson
+MIKI	MK verbe	boire
+MOKA	MK nom	remède, soin
+MOKE	MK personne	médecin
+MOKI	MK verbe	soigner
+MOKO	MK adjectif	sain
+MALA	ML nom	tête, visage
+MELA	ML nom	bouche
+MILA	ML nom	oeil, regard
+MILI	ML verbe	voir, regarder
+MOLA	ML nom	sens, sensation
+MOLI	ML verbe	sentir, ressentir
+SAMA	SM nom	famille
+SAME	SM personne	parent (père, mère)
+SAMO	SM adjectif	familial
+SEMA	SM nom	groupe, équipe, société
+SEME	SM personne	membre, collègue
+SEMI	SM verbe	se réunir
+SEMO	SM adjectif	collectif
+SIMA	SM nom	amitié, amour
+SIME	SM personne	ami
+SIMI	SM verbe	aimer
+SIMO	SM adjectif	cher (aimé)
+SOMA	SM nom	lien, relation
+SOMI	SM verbe	lier, relier
+SOMO	SM adjectif	commun
+SASA	SS nom	temps, moment, heure
+SASI	SS verbe	durer
+SESA	SS nom	jour, lumière
+SESO	SS adjectif	clair
+SISA	SS nom	nuit
+SISO	SS adjectif	sombre
+SOSA	SS nom	année, époque
+SAKA	SK nom	voyage, déplacement
+SAKE	SK personne	voyageur
+SAKI	SK verbe	aller, bouger
+SAKO	SK adjectif	rapide
+SEKA	SK nom	départ, début
+SEKI	SK verbe	partir, commencer
+SIKA	SK nom	arrivée, fin
+SIKI	SK verbe	arriver, venir, finir
+SIKO	SK adjectif	fini, arrivé
+SOKA	SK nom	don, échange
+SOKI	SK verbe	donner, apporter
+SALA	SL nom	chemin, rue
+SALI	SL verbe	marcher, suivre
+SELA	SL nom	le dehors, le lointain
+SELO	SL adjectif	loin, long
+SILA	SL nom	le dedans, le voisinage
+SILE	SL personne	voisin
+SILO	SL adjectif	proche, court
+SOLA	SL nom	porte, passage
+SOLI	SL verbe	passer, ouvrir (un passage)
+KAMA	KM nom	outil, objet, chose
+KAME	KM personne	artisan
+KAMI	KM verbe	fabriquer, construire
+KAMO	KM adjectif	fabriqué
+KEMA	KM nom	table, meuble
+KIMA	KM nom	lit, siège
+KOMA	KM nom	produit, marchandise
+KASA	KS nom	argent, valeur
+KASE	KS personne	marchand
+KASI	KS verbe	acheter, payer
+KASO	KS adjectif	cher (coûteux)
+KESA	KS nom	prix
+KESI	KS verbe	vendre
+KISA	KS nom	service, aide
+KISI	KS verbe	aider, servir
+KOSA	KS nom	commerce, marché
+KOSI	KS verbe	échanger, commercer
+KAKA	KK nom	acte, action
+KAKI	KK verbe	faire, agir
+KAKO	KK adjectif	actif
+KEKA	KK nom	travail, métier
+KEKE	KK personne	travailleur
+KEKI	KK verbe	travailler
+KIKA	KK nom	tâche, détail
+KOKA	KK nom	projet
+KOKI	KK verbe	prévoir, projeter
+KALA	KL nom	décision, direction
+KALE	KL personne	chef, responsable
+KALI	KL verbe	décider, diriger
+KELA	KL nom	plan, méthode
+KELI	KL verbe	planifier
+KILA	KL nom	étude, recherche
+KILE	KL personne	chercheur
+KILI	KL verbe	étudier, chercher
+KOLA	KL nom	objectif, but
+KOLI	KL verbe	vouloir, viser
+KOLO	KL adjectif	bon
+LAMA	LM nom	maison, bâtiment
+LAME	LM personne	habitant
+LAMI	LM verbe	habiter
+LEMA	LM nom	ville
+LEME	LM personne	citoyen
+LIMA	LM nom	pièce, chambre
+LOMA	LM nom	monde, pays, terre
+LASA	LS nom	parole, mot
+LASI	LS verbe	parler, dire, expliquer
+LESA	LS nom	langue, langage
+LISA	LS nom	nom
+LISI	LS verbe	nommer, appeler
+LOSA	LS nom	sens, signification
+LOSI	LS verbe	signifier
+LAKA	LK nom	livre, document
+LAKE	LK personne	auteur
+LAKI	LK verbe	écrire
+LAKO	LK adjectif	écrit
+LEKA	LK nom	école
+LEKE	LK personne	maître, enseignant
+LEKI	LK verbe	enseigner
+LIKA	LK nom	leçon
+LIKE	LK personne	élève
+LIKI	LK verbe	apprendre
+LOKA	LK nom	règle, loi
+LALA	LL nom	pensée, esprit
+LALE	LL personne	sage
+LALI	LL verbe	penser
+LELA	LL nom	savoir, connaissance
+LELE	LL personne	savant
+LELI	LL verbe	savoir, connaître
+LELO	LL adjectif	vrai, connu
+LILA	LL nom	mémoire, souvenir
+LILI	LL verbe	se souvenir
+LOLA	LL nom	idée, concept
+LOLI	LL verbe	imaginer, concevoir
+MAMAKA	MM nom	la main
+MAMASA	MM nom	le pied
+LAMALE	LM nom	la fenêtre
+SESAKA	SS nom	le matin
+SESALE	SS nom	le soir
+SOLAKA	SL nom	la clé (porte, angle outil)
